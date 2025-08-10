@@ -126,18 +126,23 @@ pipeline.save_enhanced_dataset(enhanced_data)
 ## 📁 **Project Structure**
 
 ```
-04_Lithology_Classification_ML/
-├── lithology_ml_pipeline.py      # Main ML pipeline (850+ lines)
-├── Lithology_Classification.py   # Basic implementation (52 lines)
-├── lithology_streamlit_app.py    # Web application interface
-├── lithology_cli.py              # Command-line interface
-
-├── litho_data/                   # Training dataset (xeek_subset_example.csv only)
-├── lithology_data/               # Additional well data
-├── model_results/                # Trained models and results
-├── run_lithology_pipeline.bat    # Windows batch launcher
-├── run_lithology_pipeline.ps1    # PowerShell launcher
-└── README.md                     # This documentation
+Lithology_Classification_ML/
+├── example_lithology_prediction.py   # Example usage script
+├── Lithology_Classification.py       # Basic implementation
+├── lithology_cli.py                  # Command-line interface
+├── lithology_ml_pipeline.py          # Main ML pipeline
+├── lithology_streamlit_app.py        # Streamlit web app
+├── LITHOLOGY_NAMES_SOLUTION.md       # Lithology names solution notes
+├── MEMORY_OPTIMIZATION_SOLUTION.md   # Memory optimization notes
+├── README.md                         # Project documentation
+├── requirements.txt                  # Python dependencies
+├── run_lithology_pipeline.bat        # Windows batch launcher
+├── run_lithology_pipeline.ps1        # PowerShell launcher
+├── streamlit_lithology_app.py        # Alternate Streamlit app
+├── test_lithology_names.py           # Test: lithology names output
+├── test_memory_optimized_pipeline.py # Test: memory optimization
+├── litho_data/                       # Data folder (xeek_subset_example.csv only)
+│   └── xeek_subset_example.csv        # Main training dataset
 ```
 
 ## 🔍 **Data Quality Analysis**
@@ -243,7 +248,6 @@ quality_df = pipeline.quality_annotations
 
 # View technique performance summary
 print(pipeline.technique_performance)
-```
 ```
 
 ### **Batch Prediction**
