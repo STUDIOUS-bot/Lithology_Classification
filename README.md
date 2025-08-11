@@ -316,7 +316,7 @@ If you use this pipeline in your research or work, please cite as:
 
 ## 📬 **Contact**
 
-For questions, suggestions, or collaboration, please open an issue or contact the maintainer at [your-email@example.com].
+For questions, suggestions, or collaboration, please open an issue or contact the maintainer at kabhay0120@gmail.com.
 
 ## 🤝 **Contributing**
 
