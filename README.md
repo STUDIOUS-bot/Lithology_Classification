@@ -312,7 +312,7 @@ pipeline.export_production_model(
 
 If you use this pipeline in your research or work, please cite as:
 
-> Lithology Classification ML Pipeline (2025). https://github.com/yourusername/lithology-ml-pipeline
+> Lithology Classification ML Pipeline (2025). https://github.com/STUDIOUS-dev/Lithology_Classification
 
 ## 📬 **Contact**
 
